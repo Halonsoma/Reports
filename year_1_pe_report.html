@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Year 1 PE Report</title>
+</head>
+<body>
+    <h1>Year 1 PE Report</h1>
+    <form action="/submit_report" method="post">
+        <label for="student_name">Student's Name:</label><br>
+        <input type="text" id="student_name" name="student_name" required><br><br>
+
+        <label for="activities_skills">Highlight Key Activities and Skills Learned:</label><br>
+        <select id="activities_skills" name="activities_skills" multiple size="10">
+            <option value="walking">Walking</option>
+            <option value="running">Running</option>
+            <option value="hopping">Hopping</option>
+            <option value="jumping_jacks">Jumping Jacks</option>
+            <option value="skipping">Skipping</option>
+            <option value="balancing_on_beams">Balancing on Beams</option>
+            <option value="basic_positions">Basic Positions (Tuck, Pike, Straddle)</option>
+            <option value="tumbling">Tumbling</option>
+            <option value="rolling_techniques">Rolling Techniques</option>
+            <option value="balance_exercises">Balance Exercises</option>
+            <option value="basic_dance_movements">Basic Dance Movements</option>
+            <option value="creative_movement">Creative Movement</option>
+            <option value="choreographing_routines">Choreographing Simple Routines</option>
+            <option value="hand_eye_coordination">Hand-Eye Coordination (Balls, Shuttlecocks)</option>
+            <option value="badminton">Badminton (Racquet Skills, Matches)</option>
+            <option value="hockey">Hockey (Stick Handling, Small-Sided Games)</option>
+            <option value="volleyball">Volleyball (Serving, Bumping, Gameplay)</option>
+            <option value="cross_country_running">Cross-Country Running (Techniques, Races)</option>
+            <option value="basketball">Basketball (Dribbling, Shooting, Positioning)</option>
+            <option value="netball">Netball (Passing, Shooting, Gameplay)</option>
+            <option value="traditional_games">Traditional Games (Various Cultures, Game Creation)</option>
+            <option value="softball">Softball (Fielding, Gameplay)</option>
+            <option value="cricket">Cricket (Batting, Strategies)</option>
+        </select><br><br>
+
+        <label for="performance_participation">Student's Performance and Participation:</label><br>
+        <select id="performance_participation" name="performance_participation">
+            <option value="highly_engaged">Highly Engaged</option>
+            <option value="moderately_engaged">Moderately Engaged</option>
+            <option value="needs_encouragement">Needs Encouragement</option>
+            <option value="actively_participates">Actively Participates</option>
+            <option value="occasionally_participates">Occasionally Participates</option>
+            <option value="reluctant_to_participate">Reluctant to Participate</option>
+        </select><br><br>
+
+        <label for="strengths_interests">Specific Strengths and Interests:</label><br>
+        <select id="strengths_interests" name="strengths_interests" multiple size="10">
+            <option value="shows_interest_in_dance">Shows Interest in Dance</option>
+            <option value="enjoys_gymnastics">Enjoys Gymnastics</option>
+            <option value="excels_in_tumbling">Excels in Tumbling</option>
+            <option value="enthusiastic_about_fundamental_movements">Enthusiastic about Fundamental Movements</option>
+            <option value="strong_hand_eye_coordination">Strong Hand-Eye Coordination</option>
+            <option value="shows_leadership_in_team_sports">Shows Leadership in Team Sports</option>
+            <option value="enthusiastic_about_cross_country_running">Enthusiastic about Cross-Country Running</option>
+            <option value="keen_interest_in_traditional_games">Keen Interest in Traditional Games</option>
+            <option value="shows_interest_in_cricket_softball">Shows Interest in Cricket/Softball</option>
+        </select><br><br>
+
+        <label for="areas_improvement">Areas for Improvement:</label><br>
+        <select id="areas_improvement" name="areas_improvement" multiple size="10">
+            <option value="needs_to_improve_balance">Needs to Improve Balance</option>
+            <option value="requires_better_coordination">Requires Better Coordination</option>
+            <option value="needs_to_increase_participation">Needs to Increase Participation</option>
+            <option value="requires_encouragement_in_team_activities">Requires Encouragement in Team Activities</option>
+            <option value="needs_to_improve_hand_eye_coordination">Needs to Improve Hand-Eye Coordination</option>
+            <option value="needs_to_improve_running_endurance">Needs to Improve Running Endurance</option>
+            <option value="needs_to_improve_shooting_accuracy">Needs to Improve Shooting Accuracy</option>
+        </select><br><br>
+
+        <label for="additional_comments">Any Additional Comments:</label><br>
+        <textarea id="additional_comments" name="additional_comments" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit Report">
+    </form>
+</body>
+</html>
